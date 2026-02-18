@@ -40,7 +40,7 @@ jobs:
           images: ghcr.io/idt-25-27/publish-docker-images-valentinopassamano-stack/stackoverflown
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v5
         with:
           context: .
           push: true
